@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>David Whitehead</Authors>
+    <Copyright>MIT David Whitehead</Copyright>
+    <PackageProjectUrl>https://github.com/lilpug/SimpleModelWrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lilpug/SimpleModelWrapper</RepositoryUrl>
+    <PackageTags>SimpleModelWrapper ModelWrapper Model Wrapper Simple ASPNETCore Microsoft MVC WEBAPI</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <Description>An ASP.NET Core Model wrapper to take all the hard lifting away.</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

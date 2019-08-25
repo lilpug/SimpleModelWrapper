@@ -65,7 +65,7 @@ To create a SimpleModelWrapper model, simply inherit the BaseModel abstract clas
 
 you can then override any of the hooks through the process to build your own functionality.
 ```c#
-	  public class SimpleExampleClass : BaseModel
+    public class SimpleExampleClass : BaseModel
     {
         private ILogger Logger { get; set; }        
         private IRandomFunctionality RandomFunctionality { get; set; }
@@ -109,7 +109,7 @@ you can then override any of the hooks through the process to build your own fun
 
 Once your model is ready simply call the process function in your controller with or without the ModelState object and then return the response and status code supplied in the ModelResult object.
 ```c#
-	  public class RandomController : ControllerBase
+    public class RandomController : ControllerBase
     {
         private readonly ILogger _Logger;
         private readonly IRandomFunctionality _RandomFunctionality;
